@@ -21,4 +21,9 @@ hello1 <- function() {
   print("Hello, world!")
 }
 
-}
+read.csv("http://www.ats.ucla.edu/stat/data/fish.csv")
+
+set.seed(1234)
+x <- rnorm(n = 500, mean = 4, sd = 1)
+y <- mysummary(x)
+
